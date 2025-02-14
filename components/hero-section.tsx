@@ -1,0 +1,78 @@
+"use client"
+
+import { motion } from "framer-motion"
+import { Button } from "@/components/ui/button"
+
+interface HeroSectionProps {
+  onOpenRegistration: () => void
+}
+
+export function HeroSection({ onOpenRegistration }: HeroSectionProps) {
+  return (
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+      {/* Background Video */}
+      <video 
+        className="absolute inset-0 w-full h-full object-cover" 
+        autoPlay 
+        loop 
+        muted 
+        playsInline
+      >
+        <source src="/gff.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Dark Overlay for Contrast */}
+      <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
+
+      {/* Content Section */}
+      <div className="container mx-auto px-4 relative z-20">
+        <div className="max-w-4xl mx-auto text-center">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-6xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#FFB800] via-orange-500 to-red-600"
+          >
+            FREE FIRE TOURNAMENT
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="text-2xl md:text-3xl text-gray-300 mb-8"
+          >
+            Battle in Style - Spandan 2K25
+          </motion.p>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="flex flex-col md:flex-row items-center justify-center gap-4"
+          >
+            <a href="https://forms.gle/bkJFieo8Zg8ptHxC7">
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-[#FFB800] to-orange-500 hover:from-[#FF9500] hover:to-orange-600 text-black font-bold text-lg px-8 py-6"
+              >
+                REGISTER NOW
+              </Button>
+            </a>
+            <a href="https://meu.edu.in/chancellor-brigade/">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-orange-500 text-orange-500 hover:bg-orange-500/10 font-bold text-lg px-8 py-6"
+              >
+                LEARN MORE
+              </Button>
+            </a>
+          </motion.div>
+        </div>
+      </div>
+
+      {/* Bottom Gradient */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent z-20" />
+    </div>
+  )
+}
