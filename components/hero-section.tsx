@@ -50,7 +50,7 @@ export function HeroSection({ onOpenRegistration }: HeroSectionProps) {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-col md:flex-row items-center justify-center gap-4"
           >
-            <a href="https://forms.gle/bkJFieo8Zg8ptHxC7">
+            <a href="https://forms.easebuzz.in/sign-up/Mandsaur0rhTp/Spandan_Free_Fire_Tournament_2K25/?inst_name=Mandsaur0rhTp&form_name=Spandan_Free_Fire_Tournament_2K25&jsonData=1">
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-[#FFB800] to-orange-500 hover:from-[#FF9500] hover:to-orange-600 text-black font-bold text-lg px-8 py-6"
