@@ -18,7 +18,7 @@ export function HeroSection({ onOpenRegistration }: HeroSectionProps) {
         muted 
         playsInline
       >
-        <source src="/gff.mp4" type="video/mp4" />
+        <source src="/ffm.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
