@@ -7,7 +7,7 @@ export function TournamentSchedule() {
     {
       stage: "Registration Open",
       date: "February 15, 2025",
-      description: "Registration will be opened on 11 February 2025.",
+      description: "Registration will be opened on 15 February 2025.",
     },
     {
       stage: "Registration Close",
