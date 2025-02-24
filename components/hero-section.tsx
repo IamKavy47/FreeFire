@@ -11,7 +11,7 @@ export function HeroSection({ onOpenRegistration }: HeroSectionProps) {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background Video */}
-      <video 
+{/*       <video 
         className="absolute inset-0 w-full h-full object-cover" 
         autoPlay 
         loop 
@@ -20,7 +20,8 @@ export function HeroSection({ onOpenRegistration }: HeroSectionProps) {
       >
         <source src="/ffm.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
+        <img src="https://wallpapers.com/images/high/garena-free-fire-zombie-samurai-4ceppcui3cp31fv1.webp" alt="ff" className="absolute inset-0 w-full h-full object-cover">
 
       {/* Dark Overlay for Contrast */}
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
