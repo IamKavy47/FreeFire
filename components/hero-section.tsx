@@ -10,18 +10,18 @@ interface HeroSectionProps {
 export function HeroSection({ onOpenRegistration }: HeroSectionProps) {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Background Video */}
-{/*       <video 
-        className="absolute inset-0 w-full h-full object-cover" 
-        autoPlay 
-        loop 
-        muted 
-        playsInline
-      >
-        <source src="/ffm.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video> */}
-        <img src="https://wallpapers.com/images/high/garena-free-fire-zombie-samurai-4ceppcui3cp31fv1.webp" alt="ff" className="absolute inset-0 w-full h-full object-cover">
+      {/* Background Video with Image Fallback */}
+      <div className="absolute inset-0 w-full h-full object-cover">
+        <picture>
+          <source srcSet="/ffm.mp4" type="video/mp4" />
+          {/* Fallback image for browsers that do not support video */}
+          <img 
+            src="https://wallpapers.com/images/high/garena-free-fire-zombie-samurai-4ceppcui3cp31fv1.webp" 
+            alt="Free Fire Background" 
+            className="w-full h-full object-cover"
+          />
+        </picture>
+      </div>
 
       {/* Dark Overlay for Contrast */}
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
