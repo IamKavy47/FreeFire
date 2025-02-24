@@ -59,13 +59,13 @@ export function HeroSection({ onOpenRegistration }: HeroSectionProps) {
                 REGISTER NOW
               </Button>
             </a>
-            <a href="https://meu.edu.in/chancellor-brigade/">
+            <a href="/rules.pdf">
               <Button
                 size="lg"
                 variant="outline"
                 className="border-orange-500 text-orange-500 hover:bg-orange-500/10 font-bold text-lg px-8 py-6"
               >
-                LEARN MORE
+                Rules
               </Button>
             </a>
           </motion.div>
