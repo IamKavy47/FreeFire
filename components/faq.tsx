@@ -31,11 +31,12 @@ export function FAQ() {
               },
               {
                 question: "Is there an entry fee?",
-                answer: "Yes, there is a nominal entry fee of ₹2000 per team to ensure competitive integrity.",
+                answer:
+                  "Yes, there are two entry fee options: ₹999 for tournament participation only, and ₹1550 which includes both tournament participation and accommodation (food and stay provided on 20th, 21st, and 23rd).",
               },
               {
                 question: "What is included in the entry fee?",
-                answer: "The entry fee includes accommodation, food, and full access to the Spandan 2K25 event. For more details about Spandan events, visit the official website of Chancellor's Brigade.",
+                answer: "The ₹1550 entry fee includes accommodation, food, and full access to the Spandan 2K25 event. For more details about Spandan events, visit the official website of Chancellor's Brigade.",
               },
               {
                 question: "What are the technical requirements?",
@@ -59,4 +60,3 @@ export function FAQ() {
     </section>
   )
 }
-
