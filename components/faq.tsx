@@ -32,7 +32,7 @@ export function FAQ() {
               {
                 question: "Is there an entry fee?",
                 answer:
-                  "Yes, there are two entry fee options: ₹999 for tournament participation only, and ₹1550 which includes both tournament participation and accommodation (food and stay provided on march 20th to 22nd).",
+                  "Yes, there is entry fee of ₹1500 which includes both tournament participation and accommodation (food and stay provided on march 20th to 21st).",
               },
               {
                 question: "What is included in the entry fee?",
