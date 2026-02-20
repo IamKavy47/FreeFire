@@ -11,24 +11,19 @@ export function ChancellorsBrigade() {
       image: "/jigyasa.png",
     },
     {
-      name: "Harshvardhan Singh",
+      name: "Hardik Soni",
       // role: "Strategic Advisor",
-      image: "/harsh.jpg",
+      image: "/hardik.jpg",
     },
     {
-      name: "Aditya Joshi",
+      name: "Kavy Porwal",
       // role: "Research Director",
-      image: "/aditya.jpg",
+      image: "/kavy.jpg",
     },
     {
-      name: "Shashank Gupta",
+      name: "Chetanya Parmar",
       // role: "Innovation Lead",
-      image: "/gupta.jpg",
-    },
-    {
-      name: "Sudip Bhalwankar",
-      // role: "Community Liaison",
-      image: "/sudip.png",
+      image: "/chinu.jpg",
     },
   ]
 
@@ -42,7 +37,7 @@ export function ChancellorsBrigade() {
           viewport={{ once: true }}
           className="text-4xl md:text-5xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-[#FFB800] to-orange-500"
         >
-          CHANCELLOR&apos;S BRIGADE
+          Technical Committee
         </motion.h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8">
           {team.map((member, index) => (
