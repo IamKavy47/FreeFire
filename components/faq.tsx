@@ -36,7 +36,7 @@ export function FAQ() {
               },
               {
                 question: "What is included in the entry fee?",
-                answer: "The ₹1550 entry fee includes accommodation, food, and full access to the Spandan 2K25 event. For more details about Spandan events, visit the official website of Chancellor's Brigade.",
+                answer: "The ₹1500 entry fee includes accommodation, food, and full access to the Spandan 2K26 event. For more details about Spandan events, visit the official website of Spandan 2K26.",
               },
               {
                 question: "What are the technical requirements?",
