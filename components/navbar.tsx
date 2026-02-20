@@ -23,7 +23,7 @@ export function Navbar() {
           <div className="flex items-center space-x-4">
             <img src="/mu.png" alt="Logo" className="h-10 w-10" />
             <Link href="/" className="text-[#FFB800] font-bold text-2xl">
-              SPANDAN 2K25
+              SPANDAN 2K26
             </Link>
           </div>
 
