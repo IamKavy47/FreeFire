@@ -12,9 +12,9 @@ export function OrganizingTeam() {
       image: "/dev.jpg",
     },
     {
-      name: "Meet Dosi",
+      name: "Arbaz Khan",
       // role: "Technical Director",
-      image: "/meet.jpg",
+      image: "/arbaz.jpg",
     },
     
   ]
