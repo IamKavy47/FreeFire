@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-[#FFB800] font-bold mb-4">FREE FIRE TOURNAMENT</h3>
-            <p className="text-gray-400 text-sm">Official Spandan 2K25 Gaming Tournament</p>
+            <p className="text-gray-400 text-sm">Official Spandan 2K26 Gaming Tournament</p>
           </div>
           <div>
             <h3 className="text-[#FFB800] font-bold mb-4">QUICK LINKS</h3>
@@ -20,6 +20,11 @@ export function Footer() {
               <li>
                 <Link href="https://meu.edu.in/chancellor-brigade/" className="text-gray-400 hover:text-orange-500 text-sm">
                   Chancellor's Brigade
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.mufests.com" className="text-gray-400 hover:text-orange-500 text-sm">
+                  Spandan 2K26
                 </Link>
               </li>
               <li>
