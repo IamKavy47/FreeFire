@@ -26,7 +26,7 @@ export default function Home() {
       <TournamentSchedule />
       <PrizePool />
       <OrganizingTeam />
-      <ChancellorsBrigade />
+      {/* <ChancellorsBrigade /> */}
       <FAQ />
       <Footer />
       <RegistrationModal isOpen={isRegistrationOpen} onClose={closeRegistration} />
