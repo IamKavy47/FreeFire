@@ -18,12 +18,12 @@ export function ChancellorsBrigade() {
     {
       name: "Kavy Porwal",
       // role: "Research Director",
-      image: "/kavy.jpg",
+      image: "https://www.mufests.com/assets/HEADS/Kavy.jpg",
     },
     {
       name: "Chetanya Parmar",
       // role: "Innovation Lead",
-      image: "/chinu.jpg",
+      image: "https://www.mufests.com/assets/HEADS/Chinu.jpg",
     },
   ]
 
