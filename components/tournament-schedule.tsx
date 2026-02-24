@@ -6,12 +6,12 @@ export function TournamentSchedule() {
   const stages = [
     {
       stage: "Registration Open",
-      date: "February 15, 2025",
+      date: "February 22, 2026",
       description: "Registration will be opened on 15 February 2025.",
     },
     {
       stage: "Registration Close",
-      date: "March 15, 2025",
+      date: "March 1, 2026",
       description: "Registration will be closed on 15 March 2025.",
     },
     {
@@ -21,7 +21,7 @@ export function TournamentSchedule() {
     },
     {
       stage: "Grand Final",
-      date: "March 21, 2025",
+      date: "March 20, 2025",
       description: "Top teams will fight against to win the tournament",
     },
   ]
