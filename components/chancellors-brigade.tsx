@@ -8,12 +8,12 @@ export function ChancellorsBrigade() {
     {
       name: "Jigyasa Joshi",
       // role: "Technical Advisor",
-      image: "/jigyasa.png",
+      image: "https://github.com/IamKavy47/ideathon/blob/main/imgs/teams-imgs/jigyasa.png",
     },
     {
       name: "Hardik Soni",
       // role: "Strategic Advisor",
-      image: "/hardik.jpg",
+      image: "https://github.com/IamKavy47/ideathon/blob/main/imgs/teams-imgs/hardik.png",
     },
     {
       name: "Kavy Porwal",
