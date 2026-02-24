@@ -6,7 +6,7 @@ export function PrizePool() {
   const prizes = [
     { position: "1ST PLACE", amount: "₹15,000" },
     { position: "2ND PLACE", amount: "₹7,000" },
-    // { position: "3RD PLACE", amount: "₹25,000" },
+    { position: "3RD PLACE", amount: "₹3,000" },
   ]
 
   return (
