@@ -11,7 +11,6 @@ export function Navbar() {
     { name: "ABOUT", href: "#about" },
     { name: "TOURNAMENT", href: "#tournament" },
     { name: "TEAM", href: "#teams" },
-    { name: "SPONSORS", href: "#sponsors" },
     { name: "FAQ", href: "#faq" },
   ]
 
